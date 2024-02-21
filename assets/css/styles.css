@@ -15,7 +15,7 @@ div {
 #cloud {
   margin: auto;
   display: block;
-  width: 85%;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -25,7 +25,7 @@ div {
 }
 
 #heading1 {
-  font-weight: 600;
+  font-weight: 500;
   position: absolute;
   text-align: center;
   /*top: 13%;*/
@@ -33,7 +33,7 @@ div {
   left: 50%;
   right: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 50%;
 }
 
 #cta {
@@ -60,21 +60,22 @@ a {
 @media (min-width: 1000px) {
   #heading1 {
     top: 120px;
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
 @media (max-width: 992px) {
   #heading1 {
     top: 90px;
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
 @media (max-width: 768px) {
   #heading1 {
     top: 70px;
-    font-size: 25px;
+    font-size: 20px;
+    width: 60%;
   }
 }
 
@@ -82,6 +83,7 @@ a {
   #heading1 {
     font-size: 16px;
     top: 45px;
+    width: 70%;
   }
 }
 
@@ -235,6 +237,56 @@ div {
     height: 150px;
     width: auto;
     margin-left: -50px;
+  }
+}
+
+#box1 {
+}
+
+@media (min-width: 576px) {
+  #box1 {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  #box1 {
+    width: 400px;
+  }
+}
+
+@media (min-width: 300px) {
+  #input {
+    width: 320px;
+  }
+}
+
+@media (min-width: 576px) {
+  #input {
+    width: 400px;
+  }
+}
+
+#stepH {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#parabox {
+  margin: auto;
+}
+
+@media (min-width: 300px) {
+  #parabox {
+    font-size: 14px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 576px) {
+  #parabox {
+    font-size: 16px;
+    width: 250px;
   }
 }
 
