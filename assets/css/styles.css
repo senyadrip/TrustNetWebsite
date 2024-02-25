@@ -36,9 +36,22 @@ div {
   width: 50%;
 }
 
+#changing-heading {
+  font-weight: 500;
+  position: absolute;
+  text-align: center;
+  /*top: 13%;*/
+  /*left: 30%;*/
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 100%);
+  width: 50%;
+}
+
 #cta {
   width: 9rem;
   height: 2.5rem;
+  background: #03c36b;
 }
 
 .navbar-brand {
@@ -59,20 +72,50 @@ a {
 
 @media (min-width: 1000px) {
   #heading1 {
-    top: 120px;
-    font-size: 30px;
+    top: 90px;
+    font-size: 26px;
   }
 }
 
 @media (max-width: 992px) {
   #heading1 {
+    top: 80px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  #heading1 {
+    top: 60x;
+    font-size: 18px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 400px) {
+  #heading1 {
+    font-size: 8px;
+    top: 30px;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #changing-heading {
+    top: 100px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  #changing-heading {
     top: 90px;
     font-size: 25px;
   }
 }
 
 @media (max-width: 768px) {
-  #heading1 {
+  #changing-heading {
     top: 70px;
     font-size: 20px;
     width: 60%;
@@ -80,7 +123,7 @@ a {
 }
 
 @media (max-width: 400px) {
-  #heading1 {
+  #changing-heading {
     font-size: 16px;
     top: 45px;
     width: 70%;
@@ -91,6 +134,7 @@ a {
   width: 70%;
   margin: auto;
   margin-top: 20px;
+  max-width: 800px;
 }
 
 #heading2 {
@@ -105,11 +149,19 @@ a {
   }
 }
 
+
+
 @media (min-width: 768px) {
   #row1 {
     width: 600px;
     margin: auto;
     /*margin-bottom: 40px;*/
+  }
+}
+
+@media (min-width: 1200px) {
+  #row1 {
+    width: 800px;
   }
 }
 
@@ -148,6 +200,7 @@ a {
   position: absolute;
   right: 0;
   top: 0;
+  background: #03c36b;
 }
 
 #submit {
@@ -253,6 +306,10 @@ div {
   #box1 {
     width: 400px;
   }
+}
+
+#input {
+  border-color: #03c36b;
 }
 
 @media (min-width: 300px) {
