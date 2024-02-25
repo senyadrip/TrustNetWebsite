@@ -51,7 +51,7 @@ div {
 #cta {
   width: 9rem;
   height: 2.5rem;
-  background: #03c36b;
+  background: #03c36b !important;
 }
 
 .navbar-brand {
@@ -200,7 +200,7 @@ a {
   position: absolute;
   right: 0;
   top: 0;
-  background: #03c36b;
+  background: #03c36b !important;
 }
 
 #submit {
@@ -309,7 +309,7 @@ div {
 }
 
 #input {
-  border-color: #03c36b;
+  border-color: #03c36b !important;
 }
 
 @media (min-width: 300px) {
